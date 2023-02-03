@@ -1,0 +1,28 @@
+.login__form {
+  margin-top: 25px;
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.auth__btn {
+  margin-top: 45px;
+  padding: 8px 20px;
+  border: none;
+  color: var(--privary-color);
+  font-weight: 600;
+  background: #ff !important;
+}
+
+.login__form p {
+  margin-top: 30px;
+}
+
+.login__form p a {
+  color: rgba(255, 255, 255, 0.735);
+}
+
+.login__form input[type="file"] {
+  color: #fff;
+  cursor: pointer;
+}
