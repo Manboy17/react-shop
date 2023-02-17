@@ -1,0 +1,28 @@
+{
+  "sneakers": [
+    {
+      "id": 0,
+      "img": "img1",
+      "name": "Nike Blazer Mid Suede Men's Sneakers",
+      "price": 120
+    },
+    {
+      "id": 1,
+      "img": "img2",
+      "name": "Nike Air Max 270 Men's Running Shoes",
+      "price": 120
+    },
+    {
+      "id": 2,
+      "img": "img3",
+      "name": "Nike Blazer Mid Suede Men's Sneakers",
+      "price": 140
+    },
+    {
+      "id": 4,
+      "img": "img4",
+      "name": "Puma X Aka Boku Future Rider sneakers",
+      "price": 120
+    }
+  ]
+}

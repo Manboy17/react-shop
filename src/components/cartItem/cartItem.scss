@@ -1,0 +1,13 @@
+.itemQty {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  .selectQty {
+    margin-bottom: 10px;
+  }
+
+  .qrt {
+    margin: 15px 0px;
+  }
+}

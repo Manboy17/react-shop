@@ -1,0 +1,143 @@
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.cart {
+  height: 100vh;
+  right: 0;
+  width: 385px;
+  background-color: #fff;
+  position: absolute;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: bottom;
+  overflow: scroll;
+
+  .order {
+    button {
+      width: 100%;
+      background: #9dd558;
+      border-radius: 18px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      border: none;
+      padding: 10px 5px;
+      cursor: pointer;
+      margin-top: 100px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .closeCart {
+    position: absolute;
+    right: 10px;
+    top: 33px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .product {
+    margin-bottom: 20px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    padding: 20px 20px 29px 20px;
+
+    .name {
+      display: flex;
+      flex-direction: column;
+      margin-left: 21px;
+
+      span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #000000;
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #000000;
+      }
+    }
+
+    .close {
+      font-size: 25px;
+      cursor: pointer;
+      color: #d3d3d3;
+    }
+  }
+
+  .cartBottom {
+    display: block;
+    flex-direction: column;
+    margin-top: auto;
+
+    .total {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      position: relative;
+
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+      }
+
+      .dotted {
+        width: 200px;
+        border-bottom: 1px dashed #dfdfdf;
+        position: absolute;
+        top: 13px;
+        left: 50px;
+      }
+    }
+
+    button {
+      width: 100%;
+      background: #9dd558;
+      border-radius: 18px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      border: none;
+      padding: 10px 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+.cart::-webkit-scrollbar {
+  display: none;
+}
+
+overlay.displayNone {
+  display: none;
+}
