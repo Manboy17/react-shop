@@ -4,9 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 
 import "../styles/Login.css";
 import { useState } from "react";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase.config";
-import { toast } from "react-toastify";
 
 const Login = () => {
   const [email, setEmail] = useState("");
