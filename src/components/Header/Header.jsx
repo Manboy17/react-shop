@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 
 const navLinks = [
   {
-    path: "/home",
+    path: "/",
     display: "Home",
   },
   {
@@ -60,7 +60,7 @@ const Header = () => {
       <Container>
         <Row>
           <div className="nav__wrapper">
-            <div className="logo" onClick={() => navigate("/home")}>
+            <div className="logo" onClick={() => navigate("/")}>
               <img src={logo} alt="logo" />
               <div>
                 <h1>Blowmind</h1>
